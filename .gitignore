@@ -1,0 +1,8 @@
+node_modules/
+.state/
+*.log
+ollama/
+models/
+tessdata/
+dist/
+ocr-pack/dist/

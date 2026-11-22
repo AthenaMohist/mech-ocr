@@ -1,0 +1,14 @@
+{
+  "name": "mech-ocr",
+  "version": "1.0.0",
+  "description": "OCR pipeline for mech-kb: GLM-OCR + tesseract, decoupled from KB core",
+  "main": "pipeline.js",
+  "scripts": {
+    "start": "node pipeline.js",
+    "test": "node -e \"const e=require('./engines');e.available().then(l=>{console.log('engines:',l.join(', '));process.exit(l.length?0:1)})\""
+  },
+  "dependencies": {
+    "pdf-to-img": "^7.0.2",
+    "tesseract.js": "^7.0.0"
+  }
+}
