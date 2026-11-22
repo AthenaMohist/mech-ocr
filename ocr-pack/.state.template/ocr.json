@@ -1,0 +1,10 @@
+{
+  "_comment": "OCR engine credentials (optional). Local GLM-OCR works without any credentials. Doc2X/TextIn are cloud fallbacks - fill in if you have them.",
+  "ollama_url": "http://127.0.0.1:11434",
+  "ollama_model": "glm-ocr",
+  "doc2x_token": "",
+  "doc2x_image_url": "https://v2.doc2x.noedgeai.com/api/v2/parse/img/layout",
+  "textin_app_id": "",
+  "textin_secret_code": "",
+  "textin_url": "https://api.textin.com/ai/service/v1/pdf_to_markdown?markdown_details=1&parse_mode=auto"
+}
